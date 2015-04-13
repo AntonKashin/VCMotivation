@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'officinaserifc';
+	src: url('officinaserifc-book-webfont.eot'); /* IE9 Compat Modes */
+	src: url('officinaserifc-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('officinaserifc-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		url('officinaserifc-book-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+root {
+}
+
+body, html{
+	margin-top:0;
+}
+
+.clear{
+	clear: both;
+}
+
+img.test {
+	max-width:100%;
+	max-height:100%;
+	;display:none;
+}
+
+.wrapper{
+	width: 960px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-wrapper{
+}
+
+.header-row{
+}
+
+.header-row1{
+	height:34px;
+}
+
+.header-row2{
+	height:210px;
+	background-color:#ffca1e;
+	background-image: url("header.png");
+	background-repeat:repeat-x;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header-col{
+	float:left;
+	height:100%;
+}
+
+.header-col1{
+	width: 204px;
+}
+
+.header-col2{
+	width: 316px;
+}
+
+.header-col3{
+	width: 240px;
+	background-image: url("sticker.png");
+	background-repeat:no-repeat;
+}
+
+.header-col4{
+width: 200px;
+}
+
+#header-cell23{
+	background-position-y: -34px;
+}
+
+.photo-placeholder{
+	margin:10px;
+	width:184px;
+	height:190px;
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size: 18px;
+}
+.photo-frame{
+	height:100%;
+	width:100%;
+	background-image: url("photo_frame.png");
+}
+
+.photo-frame img{
+	max-height:170px;
+	margin-left:37px;
+	margin-top:12px;
+	position:absolute;
+}
+
+
+.photo-ribbon{
+	width:184px;
+	height:190px;
+	background-image: url("main_photo_ribbon.png");
+	overflow:hidden;
+	position:absolute;
+}
+
+.photo-ribbon span{
+	display:block;
+}
+
+span.upper-right-text{
+	margin-left:136px;
+	margin-top:6px;
+}
+
+span.bottom-text{
+	margin-top:130px;
+	text-align: center;
+}
+
+.person-details-form{
+	width:180px;
+	margin:10px;
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	overflow:auto;
+}
+
+.person-details-form .nested-field{
+	margin-top:20px;
+	overflow:auto;
+	clear: both;
+}
+
+.bar-wrapper{
+	height:6px;
+	background-color:grey;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	box-sizing: content-box;
+}
+
+.bar{
+	height:100%;
+	width:80%;
+	background-color:#ADD65C;
+}
+
+.tip-button{
+	width:24px;
+	height:24px;
+	background-image:url("tip.png");
+	background-size:cover;
+    background-repeat:no-repeat;
+	float:right;
+}
+
+.sticker-form{
+	width:180px;
+	margin-top:40px;
+	margin-left:16px;
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size:14px;
+}
+
+.sticker-form h1{
+	margin-bottom:20px;
+	font-size:14px;
+}
+
+.sticker-form span{
+	width:100%;
+	margin-top:10px;
+	display:block;
+	clear:both;
+}
+
+.sticker-form span b.right{
+	text-align:right;
+	float:right;
+}
+
+.extra-button-form{
+	height:210px;
+	width:115px;
+	float:right;
+}
+
+.extra-button-placeholder{
+	margin-top:20px;
+	margin-left:20px;
+	height:75px;
+	width:75px;
+}
+
+.extra-button-surface{
+	width:72px;
+	height:72px;
+	background-color:#ffdb68;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center; 
+	border-color:gray;
+	border-style:solid;
+	border-width:3px;
+	box-sizing: border-box;
+	position:absolute;
+	z-index: 1;
+}
+
+.extra-button-shadow{
+	margin-top:3px;
+	margin-left:3px;
+	width:72px;
+	height:72px;
+	background-color:black;
+	position:absolute;
+	z-index: 0;
+}
+
+.shop-btn{
+	background-image: url("ikonka_magazin.png");
+}
+
+.rating-btn{
+	background-image: url("ikonka_reiting.png");
+}
+
+.main-wrapper{
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	float:left;
+}
+
+.nested-container{
+	float:left;
+	height:100%
+	
+}
+
+.left-side-panel{
+	display:table-cell;
+	width:240px;
+	height:100%;
+	float:left;
+	box-shadow: inset 0 0 10px rgba(255,255,255,0.5);
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li.menu-item{
+	margin:10px;
+}
+
+li.menu-item a{
+	display:block;
+	padding: 10.5px 11px;
+	background-image: url("arrow_button.png");
+	color: black;
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size: 32px;
+	line-height: 39px;
+	text-decoration: none;
+}
+
+li.menu-item a span{
+
+}
+.content{
+	display: block;
+	width:720px;
+	height:100%;
+	float:left;
+}
+
+.content-header {
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size: 28px;
+}
+
+.content-header h1{
+	margin:12px;
+	font-size: 24px;
+	font-weight:bold;
+	letter-spacing: 4px;
+	text-align:center;
+}
+
+.rating-form{
+	width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:gray;
+	box-shadow: inset 0 0 10px rgba(255,255,255,1);
+	overflow:auto;
+	
+}
+
+.group-by-button-wrapper{
+	margin:auto;
+	width:630px;
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:auto;
+}
+
+.group-by-button-col{
+	width:210px;
+	float:left;
+}
+
+a.group-by-button{
+	display:block;
+	margin:auto;
+	width:120px;
+	line-height:16px;
+	padding:10px;
+	text-align:center;
+	text-decoration: none;
+	color:black;
+	background-image: url("knopka_4.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	font-family: officinaserifc, Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.top3-wrapper{
+	height:240px;
+}
+
+.list-view{
+	margin:20px;
+}
+.list-item{
+	height:48px;
+	background-image: url("list_item_bkgnd.png");
+	margin:6px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.list-item-field{
+	height:100%;
+	font-family: officinaserifc, Arial, sans-serif;
+	overflow:auto;
+	vertical-align: middle;
+	display:table-cell;
+}
+
+.list-item-field span{
+	display:block;
+	margin-left:12px;
+	clear:both;
+}
+.list-item-field span b{
+	font-weight:bold;
+}
+.list-item-field span.large {
+	font-weight:bold;
+	font-size:32px;
+}
+
+.icon{
+	height:36px;
+	width:24px;
+	margin:6px;
+	margin-left:12px;
+	background-image: url("ikonka_cheloveka.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.lt{
+	font-family: officinaserifc, Arial, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+}
+
+.rightallign{
+	width:270px;
+	margin-left:auto;
+	text-align:right;
+}
