@@ -72,7 +72,7 @@ width: 200px;
 }
 
 #header-cell23{
-	background-position-y: -34px;
+	background-position: 0 -34px;
 }
 
 .photo-placeholder{
@@ -341,7 +341,7 @@ a.group-by-button{
 .list-item{
 	height:48px;
 	background-image: url("list_item_bkgnd.png");
-	margin:6px;
+	margin-top:6px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -356,7 +356,6 @@ a.group-by-button{
 .list-item-field span{
 	display:block;
 	margin-left:12px;
-	clear:both;
 }
 .list-item-field span b{
 	font-weight:bold;
