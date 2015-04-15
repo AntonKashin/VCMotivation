@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'officinaserifc';
-	src: url('officinaserifc-book-webfont.eot'); /* IE9 Compat Modes */
-	src: url('officinaserifc-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		url('officinaserifc-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-		url('officinaserifc-book-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+	src: url('font/officinaserifc-book-webfont.eot'); /* IE9 Compat Modes */
+	src: url('font/officinaserifc-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('font/officinaserifc-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		url('font/officinaserifc-book-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 root {
@@ -43,7 +43,7 @@ img.test {
 .header-row2{
 	height:210px;
 	background-color:#ffca1e;
-	background-image: url("header.png");
+	background-image: url("img/header_bkgnd.png");
 	background-repeat:repeat-x;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -63,7 +63,7 @@ img.test {
 
 .header-col3{
 	width: 240px;
-	background-image: url("sticker.png");
+	background-image: url("img/sticker.png");
 	background-repeat:no-repeat;
 }
 
@@ -85,7 +85,7 @@ width: 200px;
 .photo-frame{
 	height:100%;
 	width:100%;
-	background-image: url("photo_frame.png");
+	background-image: url("img/profile_photo_frame.png");
 }
 
 .photo-frame img{
@@ -99,7 +99,7 @@ width: 200px;
 .photo-ribbon{
 	width:184px;
 	height:190px;
-	background-image: url("main_photo_ribbon.png");
+	background-image: url("img/profile_photo_ribbon.png");
 	overflow:hidden;
 	position:absolute;
 }
@@ -146,12 +146,13 @@ span.bottom-text{
 	height:100%;
 	width:80%;
 	background-color:#ADD65C;
+	background-image:url("img/hp_bar.png");
 }
 
 .tip-button{
 	width:24px;
 	height:24px;
-	background-image:url("tip.png");
+	background-image:url("img/tip_btn.png");
 	background-size:cover;
     background-repeat:no-repeat;
 	float:right;
@@ -229,7 +230,7 @@ span.bottom-text{
 }
 
 .main-wrapper{
-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	float:left;
 }
 
@@ -260,7 +261,7 @@ li.menu-item{
 li.menu-item a{
 	display:block;
 	padding: 10.5px 11px;
-	background-image: url("arrow_button.png");
+	background-image: url("img/arrow_button.png");
 	color: black;
 	font-family: officinaserifc, Arial, sans-serif;
 	font-size: 32px;
@@ -295,7 +296,7 @@ li.menu-item a span{
 	width:640px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:gray;
+	background-color:#d3d3d3;
 	box-shadow: inset 0 0 10px rgba(255,255,255,1);
 	overflow:auto;
 	
@@ -317,15 +318,13 @@ li.menu-item a span{
 a.group-by-button{
 	display:block;
 	margin:auto;
-	width:120px;
+	width:142px;
 	line-height:16px;
-	padding:10px;
+	padding:10px 0 10px 0;
 	text-align:center;
 	text-decoration: none;
 	color:black;
-	background-image: url("knopka_4.png");
-	background-size:contain;
-	background-repeat:no-repeat;
+	background-image: url("img/button36.png");
 	font-family: officinaserifc, Arial, sans-serif;
 	font-size: 16px;
 	font-weight:bold;
@@ -333,6 +332,9 @@ a.group-by-button{
 
 .top3-wrapper{
 	height:240px;
+	background-image: url("img/top3_stand.png");
+	background-position: center bottom;
+	background-repeat:no-repeat;
 }
 
 .list-view{
@@ -385,4 +387,11 @@ a.group-by-button{
 	width:270px;
 	margin-left:auto;
 	text-align:right;
+}
+
+.top3-stand{
+
+height:100%;
+width:480px;
+margin:auto;
 }
