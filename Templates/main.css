@@ -154,7 +154,7 @@ span.bottom-text{
 	height:24px;
 	background-image:url("img/tip_btn.png");
 	background-size:cover;
-    background-repeat:no-repeat;
+	background-repeat:no-repeat;
 	float:right;
 }
 
@@ -344,14 +344,33 @@ a.group-by-button{
 }
 
 .top3-col{
-	background-color:white;
 	width:180px;
 	height:200px;
+	background-image: url("img/red_ribbon.png");
+	background-repeat:no-repeat;
 	float:left;	
 }
 
+.top3-photo-frame{
+	width:110px;
+	height:141px;
+	margin:auto;
+	margin-top:36px;
+	border-bottom-color:black;
+	border-style:solid;
+	border-width:2px;
+	background-color:gray;
+}
+
+.top3-photo-frame img{
+	display:block;
+	max-height:100%;
+	max-width:100%;
+	margin:auto;
+}
+
 #top-3-1st{
-	margin-top:0;
+	margin-top:10px;
 }
 
 #top-3-2nd{
@@ -359,7 +378,7 @@ a.group-by-button{
 }
 
 #top-3-3rd{
-	margin-top:40px;
+	margin-top:60px;
 }
 
 .list-view{
